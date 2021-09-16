@@ -37,12 +37,14 @@ a {
   text-decoration: none;
   font-weight: 900;
   color:#FFFDD0;
+  text-transform: uppercase;
 }
 
 a:hover {
   color: white;
   font-family: 'Playfair Display', serif;
   font-weight: normal;
+  text-transform: uppercase;
 }
 
 
