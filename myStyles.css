@@ -15,6 +15,8 @@ nav {
 li {
     margin: 2px;
     padding: 6.5px;
+    border: 1px solid white;
+
   }
 
 /* {
@@ -25,8 +27,7 @@ li {
 
 ul {
   list-style-type: none;
-  display: flex;
-  justify-content: center;
+
 }
 
 /*li {
@@ -87,27 +88,8 @@ img {
   border: 0;
 
 }
-#menu_trigger {
-  display: none;
-}
-
-@media (max-width:600px){
-  ul {
-    list-style-type: none;
-    justify-content: center;
-
-  }
-  li {
-    margin: 2px;
-    padding: 6.5px;
-  }
-  #menu_trigger {
-    display: block;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-  #menu_nav {
-    display: none;
-  }
+#menu_nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
