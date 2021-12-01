@@ -25,6 +25,8 @@ li {
 
 ul {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
 
 /*li {
@@ -71,6 +73,7 @@ p,h3 {
   color: #F3E5AB;
   font-family: 'Architects Daughter', cursive;
   font-weight: 900;
+  text-align: center;
 
 }
 
@@ -83,5 +86,103 @@ img {
   max-width:300px;
   margin:20px;
   border: 0;
+
+}
+#menu_trigger {
+  display: none;
+}
+
+@media (max-width:600px){
+  ul {
+    list-style-type: none;
+    justify-content: center;
+
+  }
+  li {
+    margin: 2px;
+    padding: 6.5px;
+  }
+  #menu_trigger {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  #menu_nav {
+    display: none;
+  }
+}
+
+
+div.gallery {
+  height: 30%;
+  weight: 30%;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 80%;
+  height: auto;
+  /* min-height: 200px; */
+}
+
+div.text {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-family: 'sans-serif';
+  font-weight: 900;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 33.3333333333%;
+}
+
+/* @media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+} */
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+div.design_track {
+  width: 60%;
+  max-width: 800px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+img.design {
+  width: 80%;
+  max-width: 800px;
 
 }
