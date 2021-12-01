@@ -15,6 +15,8 @@ nav {
 li {
     margin: 2px;
     padding: 6.5px;
+    border: 1px solid white;
+
   }
 
 /* {
@@ -25,8 +27,12 @@ li {
 
 ul {
   list-style-type: none;
+<<<<<<< HEAD
   display: flex;
   justify-content: center;
+=======
+
+>>>>>>> 4a8daefe393087d908b7ada9afc63165ef136d58
 }
 
 /*li {
@@ -88,6 +94,7 @@ img {
   border: 0;
 
 }
+<<<<<<< HEAD
 #menu_trigger {
   display: none;
 }
@@ -185,4 +192,10 @@ img.design {
   width: 80%;
   max-width: 800px;
 
+=======
+#menu_nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+>>>>>>> 4a8daefe393087d908b7ada9afc63165ef136d58
 }
